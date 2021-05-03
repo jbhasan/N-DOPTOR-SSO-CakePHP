@@ -35,3 +35,12 @@ CakePHP Integration
    $builder->get('/login_response', ['controller' => 'NDoptor', 'action' => 'loginResponse'],'login_response');
    $builder->get('/logout', ['controller' => 'NDoptor', 'action' => 'logout'], 'logout');
    ```
+   
+8. You can change your authentication process in `loginResponse` method at `src/Controller/NDoptorController.php`
+   ```
+   /// your authentication process here START
+   
+   // ... your authentication process ... //
+   
+   /// your authentication process here END
+   ```
