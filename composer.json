@@ -1,0 +1,18 @@
+{
+    "name": "sayeed/ndoptor-sso-cakephp",
+    "description": "N-Doptor SSO for CakePHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Md. Hasan Sayeed",
+            "email": "jbhasan@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2.0",
+        "cakephp/cakephp": "~4.0.8",
+        "ext-json": "*"
+    }
+}
