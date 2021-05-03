@@ -9,13 +9,18 @@ CakePHP Integration
    ```
    return [
        'ndoptor' => [
+           'enable' => true,
            'api_domain' => 'http://n-doptor-api-stage.nothi.gov.bd/',
            'login_sso_url' => 'http://n-doptor-accounts-stage.nothi.gov.bd/login',
            'logout_sso_url' => 'http://n-doptor-accounts-stage.nothi.gov.bd/logout',
        ]
    ];
    ```
-3. Add below line in `config/bootstrap.php` in `try` block
+   
+3. If you do not want to use SSO just change `enable => true` to `enable => false` in `config/ndoptor.php` file
+
+   
+4. Add below line in `config/bootstrap.php` in `try` block
    `Configure::load('ndoptor', 'default');`
 
 
